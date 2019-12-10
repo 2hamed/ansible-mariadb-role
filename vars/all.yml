@@ -1,0 +1,16 @@
+mariadb_version: "10.2"
+
+mariadb_root_password: 123455
+
+mariadb_bind_address: 0.0.0.0
+
+mariadb_users:
+  - name: "test"
+    password: "password"
+    host: "%"
+    database: "test"
+
+mariadb_databases:
+  - name: "test"
+    collation: utf8_general_ci
+    encoding: utf8
