@@ -7,7 +7,7 @@ This ansible role installs a configurable MariaDB version on a Ubuntu machine.
 There are a handful of varialbes which can be used to configure how the MariaDB is installed.
 
 ```yaml
-mariadb_version: "10.2"
+mariadb_version: "10.2" # the version of MariaDB to install
 
 mariadb_root_password: 123455
 
